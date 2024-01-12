@@ -8,7 +8,7 @@ public partial class ScoreLabel : Label
 	public override void _Ready()
 	{
 		//Editing script to post chaanges to github
-		
+		//label label for labels
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
