@@ -12,6 +12,7 @@ public partial class Enemy : Area2D
 	
 	public override void _Ready()
 	{
+		//added something to new branch to get something else with a PR
 		this.health = 10;
 		EmitSignal(SignalName.HealthChanged,this.health);
 	}
