@@ -19,6 +19,7 @@ public partial class ScoreLabel : Label
 	private void _on_enemy_health_changed(long val)
 	{
 		Text = $"HP: {val}";
+		if (val < 1) Text = "AAAAHHH IM DED!!!";
 	}
 }
 
