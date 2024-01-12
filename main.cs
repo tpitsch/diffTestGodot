@@ -3,7 +3,7 @@ using System;
 
 public partial class main : Node2D
 {
-	
+	//I am a comment
 	int clickCount = 0;	
 	Enemy badGuy;
 	
